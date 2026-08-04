@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Magnús M. Halldórsson</title>
+<meta name="description" content="Magnús M. Halldórsson — Professor of Computer Science, Reykjavik University. Distributed algorithms, graph colouring, approximation algorithms.">
+<style>
+  :root {
+    --bg:#fbfaf7; --fg:#1c1e1d; --soft:#5b625f; --faint:#8d9591;
+    --rule:#dcdcd6; --link:#1a5f52; --mark:#f0ede4;
+    --serif: "Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    --sans: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root{
+    --bg:#14171a; --fg:#e6e9e7; --soft:#a3adaa; --faint:#77817e;
+    --rule:#2b3134; --link:#63c3ae; --mark:#1e2427;}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);
+       font-size:18px;line-height:1.6;padding:clamp(1.5rem,5vw,4rem) 1.25rem 6rem}
+  .wrap{max-width:42rem;margin:0 auto}
+  a{color:var(--link);text-decoration:none;border-bottom:1px solid rgba(128,128,128,.35)}
+  a:hover{border-bottom-color:currentColor}
+  a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+  header{border-bottom:2px solid var(--fg);padding-bottom:1rem;margin-bottom:2rem}
+  h1{font-size:2.1rem;margin:0 0 .25rem;letter-spacing:-.02em;line-height:1.1}
+  .role{font-family:var(--sans);font-size:.95rem;color:var(--soft);margin:0}
+  nav{font-family:var(--sans);font-size:.85rem;margin-top:.9rem;display:flex;
+      flex-wrap:wrap;gap:.25rem 1.1rem}
+  h2{font-family:var(--sans);font-size:.72rem;text-transform:uppercase;
+     letter-spacing:.15em;color:var(--faint);font-weight:700;
+     margin:2.6rem 0 .7rem;border-bottom:1px solid var(--rule);padding-bottom:.35rem}
+  p{margin:0 0 1rem}
+  ul{margin:0 0 1rem;padding-left:1.15rem}
+  li{margin-bottom:.4rem}
+  .lede{font-size:1.05rem}
+  .meta{font-family:var(--sans);font-size:.82rem;color:var(--faint)}
+  .venue{font-family:var(--sans);font-size:.78rem;color:var(--faint);
+         background:var(--mark);padding:.1rem .4rem;border-radius:3px;
+         white-space:nowrap;margin-left:.3rem}
+  footer{margin-top:4rem;padding-top:1rem;border-top:1px solid var(--rule);
+         font-family:var(--sans);font-size:.8rem;color:var(--faint)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Magnús M. Halldórsson</h1>
+  <p class="role">Professor, Department of Computer Science, Reykjavik University</p>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#service">Service</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<p class="lede">I work on algorithms — distributed graph colouring, approximation
+algorithms, and more recently dynamic algorithms. I am a Fellow of the EATCS.</p>
+
+<!-- Two or three sentences here in your own voice would serve better than the
+     line above. What you find interesting, not what you are certified in. -->
+
+<h2 id="research">Research</h2>
+
+<p>My work centres on symmetry breaking in distributed computing — how a network
+of processors, each seeing only its own neighbourhood, can agree on a colouring
+or an independent set — and on approximation algorithms for problems where exact
+answers are out of reach.</p>
+
+<ul>
+  <li>Distributed graph colouring, particularly in the CONGEST model</li>
+  <li>Approximation algorithms and their limits</li>
+  <li>Scheduling and capacity in wireless networks</li>
+  <li>Dynamic graph algorithms</li>
+</ul>
+
+<h2>Selected recent papers</h2>
+
+<ul>
+  <li>A Distributed Palette Sparsification Theorem<span class="venue">SODA&nbsp;2024</span><br>
+      <span class="meta">with Maxime Flin, Mohsen Ghaffari, Fabian Kuhn, Alexandre Nolin</span></li>
+  <li>Fast Coloring Despite Congested Relays<span class="venue">DISC&nbsp;2023</span><br>
+      <span class="meta">with Maxime Flin, Alexandre Nolin</span></li>
+  <li>Coloring Fast with Broadcasts<span class="venue">SPAA&nbsp;2023</span><br>
+      <span class="meta">with Maxime Flin, Mohsen Ghaffari, Fabian Kuhn, Alexandre Nolin</span></li>
+  <li>Fast Distributed Brooks' Theorem<span class="venue">SODA&nbsp;2023</span><br>
+      <span class="meta">with Manuela Fischer, Yannic Maus</span></li>
+</ul>
+
+<p class="meta">Full list on the <a href="publications.html">publications page</a>,
+and on <a href="https://dblp.org/pid/h/MagnusMHalldorsson.html">DBLP</a>.</p>
+
+<h2 id="teaching">Teaching</h2>
+
+<p><em>Hugsun og færni í tölvunarfræði</em> — Becoming a Computer Scientist.</p>
+
+<!-- Add current courses. A sentence on how you teach is worth more to a
+     prospective student than a course code. -->
+
+<h2 id="service">Service</h2>
+
+<ul>
+  <li>Chair, Curriculum Council, Reykjavik University</li>
+  <li>Fellow of the EATCS</li>
+  <li>Steering Committee Chair, SWAT, 2004–2023</li>
+  <li>Program Chair, PODC 2023</li>
+</ul>
+
+<h2 id="contact">Contact</h2>
+
+<p class="meta">
+  Department of Computer Science, Reykjavik University<br>
+  Menntavegur 1, 102 Reykjavík, Iceland
+</p>
+
+<p class="meta">
+  <a href="https://dblp.org/pid/h/MagnusMHalldorsson.html">DBLP</a> ·
+  <a href="https://github.com/magnusmhalldorsson">GitHub</a> ·
+  <a href="https://orcid.org/">ORCID</a>
+</p>
+
+<footer>
+  The previous version of this page, with older news and links, is kept at
+  <a href="legacy.html">legacy.html</a>.
+</footer>
+
+</div>
+</body>
+</html>
