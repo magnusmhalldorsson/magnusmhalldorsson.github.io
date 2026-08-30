@@ -51,6 +51,20 @@ def clean_tex(value):
     value = re.sub(r"\\['`^\"~=.]\s*\{?(\w)\}?",
                    lambda m: unicodedata.normalize('NFC', m.group(1)), value)
     value = value.replace(r'\aa', 'å').replace(r'\o', 'ø').replace(r'\ss', 'ß')
+    # common math macros, rendered as plain-text unicode rather than dropped
+    math_repl = {
+        r'\\Delta': 'Δ', r'\\delta': 'δ', r'\\chi': 'χ',
+        r'\\varepsilon': 'ε', r'\\epsilon': 'ε',
+        r'\\Omega': 'Ω', r'\\omega': 'ω',
+        r'\\Theta': 'Θ', r'\\theta': 'θ',
+        r'\\Lambda': 'Λ', r'\\lambda': 'λ',
+        r'\\times': '×', r'\\leq': '≤', r'\\geq': '≥',
+        r'\\le\b': '≤', r'\\ge\b': '≥', r'\\log': 'log', r'\\sqrt': '√',
+    }
+    for pat, to in math_repl.items():
+        value = re.sub(pat + r'\s*', to, value)
+    value = re.sub(r'\\[()\[\]]', '', value)          # math delimiters \( \) \[ \]
+    value = value.replace('$', '')                    # math delimiters $ ... $
     value = re.sub(r'\\[ ,;:!]', ' ', value)          # TeX spacing: "Proc.\ 38th"
     value = re.sub(r'\\[a-zA-Z]+\s*', '', value)      # leftover macros
     value = value.replace('{', '').replace('}', '')
@@ -218,6 +232,8 @@ def main():
     for e in entries:
         y = year_of(e) or 'Undated'
         if y != current:
+            if current is not None:
+                rows.append('  </ul>')
             current = y
             rows.append('  <h2>%s</h2>\n  <ul>' % y)
         title = html.escape(clean_tex(e.get('title', 'Untitled')))
