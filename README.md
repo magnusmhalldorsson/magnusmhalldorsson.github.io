@@ -13,18 +13,21 @@ site* and serves at the root. Any other name serves under `/reponame`.
 | `publications.html` | generated — do not hand-edit |
 | `legacy.html` | the old RU page, converted to UTF-8, kept so nothing is lost |
 | `CNAME` | the custom domain. **Do not delete** — removing it drops the domain on the next build |
-| `scripts/bib2html.py` | BibTeX → `publications.html` |
+| `scripts/dblp2html.py` | DBLP → `publications.html` |
 
 ## Publications
 
 ```sh
-python3 scripts/bib2html.py path/to/refs.bib
-python3 scripts/bib2html.py ~/…/Apps/Overleaf          # searches the tree
+python3 scripts/dblp2html.py
 ```
 
-Point it at a directory and it finds every `.bib` beneath, keeps only entries
-naming you, deduplicates by title, groups by year, and bolds your name.
-Standard library only.
+Pulls your record straight from [DBLP](https://dblp.org/pid/h/MMHalldorsson.html) —
+no local `.bib` files to keep in sync, and DBLP's own accented, disambiguated
+names avoid the matching headaches a personal `.bib` corpus has. Groups by
+year, bolds your name, and attaches an arXiv link to any entry that also has
+a matching CoRR preprint (matched by title). A preprint with no published
+version yet is listed on its own, linked straight to arXiv. Standard library
+only.
 
 Re-run it instead of editing HTML. Hand-maintenance is how the old page ended
 up three years out of date.
@@ -34,7 +37,9 @@ up three years out of date.
 Domain first — if DNS resolves before the custom domain is attached, GitHub
 issues the certificate on the first attempt.
 
-**1.** Register `magnusmh.is` at [ISNIC](https://www.isnic.is), keeping their DNS.
+**1.** Register `magnusmh.is` at [ISNIC](https://www.isnic.is). DNS itself ended
+up delegated to Cloudflare (nameservers `*.ns.cloudflare.com`) rather than
+ISNIC's own — records below are managed there.
 
 **2.** DNS records. The apex cannot be a CNAME, so it needs address records —
 all four of each, they are one load-balanced set:
