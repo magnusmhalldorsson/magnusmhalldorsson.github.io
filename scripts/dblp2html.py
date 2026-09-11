@@ -12,7 +12,7 @@ sync and no author-name matching to get wrong. Entries are grouped by year,
 newest first.
 
 Every arXiv preprint DBLP lists (journal "CoRR", publtype "informal") is
-matched to its published counterpart by normalised title. When a match is
+matched to its published counterpart by normalized title. When a match is
 found, the arXiv link is attached to the published entry instead of listed
 as a separate row. An unmatched preprint (no venue publication yet) is kept
 as its own entry, linked straight to arXiv.

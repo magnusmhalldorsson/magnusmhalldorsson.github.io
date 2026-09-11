@@ -61,7 +61,7 @@ www.magnusmh.is.    CNAME  magnusmhalldorsson.github.io.
 **4.** Settings → Pages → Custom domain → `magnusmh.is`.
 
 **5.** Wait for the certificate, then tick **Enforce HTTPS**. Usually minutes,
-occasionally a day. The checkbox stays greyed out until it lands.
+occasionally a day. The checkbox stays grayed out until it lands.
 
 **6.** Settings → Pages → Verified domains, add the TXT record it gives you.
 Stops anyone else attaching the domain to their Pages site if it ever lapses.
