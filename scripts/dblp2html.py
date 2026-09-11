@@ -284,7 +284,8 @@ PAGE = '''<!doctype html>
 <div class="wrap">
   <h1>Publications</h1>
   <p class="back"><a href="index.html">&larr; Magnús M. Halldórsson</a></p>
-  <p class="note">%(count)d entries, generated from <a href="https://dblp.org/pid/h/MMHalldorsson.html">DBLP</a>. Not hand-maintained.</p>
+  <p class="note">%(count)d entries, generated from <a href="https://dblp.org/pid/h/MMHalldorsson.html">DBLP</a>. Not hand-maintained.
+  Citation counts on <a href="https://scholar.google.com/citations?user=olerUhcAAAAJ">Google Scholar</a>.</p>
 %(body)s
 </div>
 </body>
