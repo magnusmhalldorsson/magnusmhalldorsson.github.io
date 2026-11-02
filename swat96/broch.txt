@@ -1,0 +1,483 @@
+                                  The Fifth
+
+                                SCANDINAVIAN
+                                  WORKSHOP
+                                     on
+                                 ALGORITHM
+                                   THEORY
+
+                               July 3-5, 1996
+                             Reykjavík, Iceland
+
+----------------------------------------------------------------------------
+
+Contents
+
+  1. Preliminary Program
+  2. Organizers
+  3. Conference Information
+  4. Registration Form
+  5. Registration and Hotel Information
+  6. Transportation
+
+----------------------------------------------------------------------------
+
+Preliminary Program
+
+Wednesday, July 3, 1996
+
+Invited Lecture
+
+9:00
+     Derandomization via Small Sample Spaces. Noga Alon (Tel-Aviv).
+
+Session 1: 9:50--10:40 am
+
+9:50
+     The Randomized Complexity of Maintaining the Minimum. Gerth S. Brodal
+     (Aarhus), Shiva Chaudhuri (Max-Planck-Institut), Jaikumar Radhakrishnan
+     (Tata Institute).
+10:45
+     Faster Algorithms for the Nonemptiness of Street Automata and for
+     Communication Protocol Pruning. Monika Rauch Henzinger (Cornell), Jan
+     Arne Telle (Bergen).
+
+Coffee Break 10:40--11:00 am
+
+Session 2: 11:00--12:40 noon
+
+11:00
+     Service-Constrained Network Design Problems. Madhav V. Marathe (Los
+     Alamos), R. Ravi (Carnegie-Mellon), Ravi Sundaram (MIT).
+
+11:25
+     Approximate Hypergraph Coloring. Pierre Kelsen, Sanjeev Mahajan, and
+     Hariharan Ramesh (Max-Planck-Institut).
+
+11:50
+     Facility Dispersion and Remote Subgraphs. Barun Chandra (Rice), Magnús
+     M. Halldórsson (Iceland).
+
+12:15
+     The Constrained Minimum Spanning Tree Problem. R. Ravi
+     (Carnegie-Mellon), M.X. Goemans (MIT).
+
+Lunch Break 12:40--2:00 pm
+
+Session 3: 2:00--3:40 pm
+
+2:00
+     Randomized Approximation of the Constraint Satisfaction Problem. Hoong
+     Chuin Lau and Osamu Watanabe (Tokyo I.Tech).
+
+2:25
+     On the Hardness of Global and Local Approximation. Hartmut Klauck
+     (Frankfurt).
+
+2:50
+     Approximation Algorithms for the Maximum Satisfiability Problem. Takao
+     Asano (Chuo), Takao Ono and Tomio Hirata (Nagoya).
+
+3:15
+     On the Hardness of Approximating the Minimum Consistent OBDD Problem.
+     Kouichi Hirata, Shinichi Shimozono, and Ayumi Shinohara (Kyushu).
+
+Coffee Break 3:40--4:00 pm
+
+Session 4: 4:00--6:05 pm
+
+4:00
+     Computing the Unrooted Maximum Agreement Subtree in Sub-quadratic Time.
+     T.W. Lam, W.K. Sung, and H.F. Ting (Hong Kong).
+
+4:25
+     Greedily Finding a Dense Subgraph. Yuichi Asahiro and Kazuo Iwama
+     (Kyushu), Hisao Tamaki and Takeshi Tokuyama (IBM Tokyo).
+
+4:50
+     Using Sparsification for Parametric Minimum Spanning Tree Problems.
+     David Fernández-Baca and Giora Slutzki (Iowa State).
+
+5:15
+     Vertex Partitioning Problems On Partial k-Trees. Arvind Gupta and Damon
+     Kaller (Simon Fraser), Sanjeev Mahajan (Max-Planck-Institut), Tom
+     Shermer (Simon Fraser).
+
+5:40
+     Making an Arbitrary Filled Graph Minimal by Removing Fill Edges. Jean
+     R.S. Blair (West Point), Pinar Heggernes and Jan Arne Telle (Bergen).
+
+Reception: 7:00 pm.
+
+Thursday, July 4, 1996
+
+Invited Lecture
+
+9:00
+     Sorting and Searching Revisited. Arne Andersson (Lund).
+
+Session 5: 9:50--10:40 am
+
+9:50
+     Lower Bounds for Dynamic Transitive Closure, Planar Point Location, and
+     Parentheses Matching. Thore Husfeldt, Theis Rauhe, and Sören Skyum
+     (Aarhus).
+
+10:45
+     Optimal Pointer Algorithms for Finding Nearest Common Ancestors in
+     Dynamic Trees. Stephen Alstrup and Mikkel Thorup (Copenhagen).
+
+Coffee Break 10:40--11:00 am
+
+Session 6: 11:00--12:40 noon
+
+11:00
+     Neighborhood Graphs and Distributed   -Coloring. Pierre Kelsen
+     (Max-Planck-Institut).
+
+11:25
+     Communication Complexity of Gossiping by Short Messages. Luisa Gargano,
+     Adele A. Rescigno, and Ugo Vaccaro (Salerno).
+
+11:50
+     Optimal Cost Sensitive Distributed Minimum Spanning Tree Algorithms.
+     Teresa Przytycka (Maryland), Lisa Higham (Calgary).
+
+12:15
+     A Linear Time Algorithm for the Feasibility of Pebble Motion on Trees.
+     Vincenzo Auletta (Salerno), Angelo Monti (Roma), Mimmo Parente and Pino
+     Persiano (Salerno).
+
+Lunch Break 12:40--2:00 pm
+
+Session 7: 2:00--3:40 pm
+
+2:00
+     Linear-Time Heuristics for Minimum Weight Rectangulation. Christos
+     Levcopoulos and Anna Östlin (Lund).
+
+2:25
+     Visibility with Multiple Reflections. Boris Aronov (Polytechnic,
+     Brooklyn), Alan R. Davis (St. Johns), Tamal K. Dey, Sudebkumar P. Pal,
+     and D. Chithra Prasad (IIT Kharagpur).
+
+2:50
+     A Fast Heuristic for Approximating the Minimum Weight Triangulation.
+     Christos Levcopoulos and Drago Krznaric (Lund).
+
+3:15
+     Neighbours on a Grid. Andrej Brodnik (Ljubljana), Ian Munro (Waterloo).
+
+Coffee Break 3:40--4:00 pm
+
+Session 8: 4:00--6:05 pm
+
+4:00
+     On Two Dimensional Packing. Yossi Azar and Leah Epstein (Tel-Aviv).
+
+4:25
+     Optimal Orthogonal Drawings of Triconnected Plane Graphs. Therese C.
+     Biedl (Rutgers).
+
+4:50
+     Walking Streets Faster. Alejandro López-Ortiz (Waterloo), Sven
+     Schuierer (Freiburg).
+
+5:15
+     Safe and Efficient Traffic Laws for Mobile Robots. Sonne Preminger
+     (Weizmann), Eli Upfal (IBM Almaden).
+
+Business Meeting: 5:40 pm, Oddi
+
+Conference Banquet: 7:00 pm, Videy
+
+Friday, July 5, 1996
+
+Invited Lecture
+
+9:00
+     TBA.
+     Michael S. Paterson (Warwick).
+
+Session 9: 9:50--10:40 am
+
+9:50
+     Probabilistic Ancestral Sequences and Multiple Alignments. Gaston H.
+     Gonnet and Steven A. Benner (ETH).
+
+10:15
+     Efficient Algorithms for Lempel-Ziv Encoding. Leszek Gasieniec
+     (Max-Planck-Institut), Marek Karpinski (Bonn), Wojciech Plandowski and
+     Wojciech Rytter (Warsaw).
+
+Coffee Break 10:40--11:00 am
+
+Session 10: 11:00--12:40 noon
+
+11:00
+     The Deterministic Complexity of Parallel Multisearch. Armin Bäumker and
+     Wolfgang Dittrich (Paderborn), Andrea Pietracaprina (Padova).
+
+11:25
+     Priority Queues on Parallel Machines. Gerth S. Brodal (Aarhus).
+
+11:50
+     Binary Search Trees: How Low Can You Go? Rolf Fagerberg (Odense).
+
+12:15
+     Boolean Analysis of Incomplete Examples. Endre Boros (Rutgers),
+     Toshihide Ibaraki and Kazuhise Makino (Kyoto).
+
+Lunch Break 12:40--2:00 pm
+
+Excursion and Open-Air Problem Session:
+
+Depart: 2:00 pm
+Return: Midnight
+----------------------------------------------------------------------------
+
+Conference Organizers
+
+Program Committee:
+Susanne Albers (Max-Planck-Institut)
+Bengt Aspvall (University of Bergen)
+Ricardo Baeza-Yates (University of Chile )
+Svante Carlsson (Luleå Technical University)
+Magnús M. Halldórsson (University of Iceland)
+Rolf Karlsson (co-chair, Lund University)
+Andrzej Lingas (co-chair, Lund University)
+Joe Mitchell (SUNY Stony Brook)
+Takao Nishizeki (Tohoku University)
+Pekka Orponen (University of Helsinki)
+Jörg-Rüdiger Sack (Carleton University)
+Erik Meineche Schmidt (University of Aarhus)
+Eli Upfal (IBM Almaden)
+Moti Yung (IBM Research)
+
+SWAT Steering Committee:
+Bengt Aspvall (University of Bergen)
+Svante Carlsson (Luleå Technical University)
+Hjálmtýr Hafsteinsson (University of Iceland)
+Rolf Karlsson (Lund University)
+Andrzej Lingas (Lund University)
+Erik Meineche Schmidt (University of Aarhus)
+Esko Ukkonen (University of Helsinki)
+
+Local Arrangements:
+Hjálmtýr Hafsteinsson and
+Magnús M. Halldórsson (University of Iceland)
+
+For further information about the workshop, check out the WWW page:
+
+     http://www.hi.is/swat96/
+
+or contact:
+
+     Magnús M. Halldórsson
+     Lofskeytastod
+     University of Iceland
+     IS-107 Reykjavik, Iceland
+     Tel: 354--525-4773
+     Fax: 354--552-8801
+     Email: mmh@rhi.hi.is
+
+----------------------------------------------------------------------------
+
+Conference Information
+
+Location: The Workshop will be held at the Oddi building on the campus of
+University of Iceland in Reykjavik. It is a short walk from city center
+along the city pond.
+
+Reykjavik is the northernmost capital in the world and the westernmost
+capital of Europe. It is the administrative, cultural and economic center of
+the country, as well as of all things Icelandic.
+
+Proceedings: Springer-Verlag will publish the proceedings. One copy is
+included in the registration fee; additional copies may be ordered or
+purchased at the workshop.
+
+Excursion: On Friday afternoon, we will head out of the city to see some of
+the unique nature in Iceland. We visit the original geyser Geysir and its
+constantly spewing brother; the marvelous Gullfoss falls; the fault and
+fissure separated lava fields at Thingvellir national park, the location of
+the world's first parliament; the remnant of an exploded volcano; and the
+geothermal heat plant at Nesjavellir, where we can relax in a tub of
+mineral-rich hot water.
+
+If weather allows, we hope to do some light hiking, so bring a wind-proof
+jacket and a sweater. The relative lack of trees and forests allows for
+excellent scenic views, so exploring by foot is really the must enjoyable
+way of experiencing the country. We create our own tour, so the actual
+schedule will be decided on-line.
+
+There will be an ``open air problem session'' during the excursion. We shall
+bring our supper with us, with beer and beverages.
+
+Climate: The Gulf stream keeps the climate more temperate than the
+northernly position of the country suggests. It seldom gets hot in summer,
+however, with an average July temperature of comfortable, dry 11C. The
+weather is however unpredictable and visitors should be prepared for the
+unexpected. A wind and water-resistent jacket would be useful, and a sweater
+for the hiking. Don't forget a swimsuit, for the numerous geothermally
+heated outdoors pools.
+
+Tourism: If you have time for sightseeing and interest in unspoiled nature,
+there are countless possibilities. Horse riding, trekking, snowmobiling on
+glaciers, canoeing, midnight golfing, jeep riding across rivers and
+lunar-like terrain.
+
+Suggested tours and information about available sightseeing will be
+available at the registration desk. For general tourist information see
+pointers on the Web page.
+----------------------------------------------------------------------------
+
+Registration Form
+
+Please direct all registration (conference, accommodation, and optionally
+transportation) to our travel agent:
+
+     Urval-Utsyn Travel
+     ATTN: SWAT 96 Registration
+     Lagmula 4, IS-128 Reykjavik, Iceland
+     tel: +354--569 9300
+     fax: +354--568 5033
+     email: urval@skima.is
+
+Registration Fee
+
+                Early    Late (After June 5)
+Standard fee     $235     $285
+Student fee      $100     $140
+
+Last name First name
+Affiliation
+Address
+
+Country
+Phone
+Fax
+Email
+Special requirements or dietary restrictions
+
+Hotel Registration
+
+                  Single   Double
+Hotel Loftleidir   $115     $150
+Hotel Gardur       $ 65     $ 82
+
+Name of accompanying person(s)
+Sharing room with
+Arrival day Time
+Departure day Time\
+
+Payment form
+* Check
+* Bank deposit
+Bank: Landsbanki Islands, Lagmula 9, 108 Reykjavik
+SWIFT code: LAISISRE
+Account: 139-38-380920, Urval-Utsyn Travel
+* Credit/charge card
+
+Card# Exp.date
+Cardholder
+Signature
+
+----------------------------------------------------------------------------
+
+Registration Information
+
+Fees are given in US dollars. The registration fee includes the Wednesday
+reception, Thursday conference dinner, excursion, lunches, coffee breaks,
+and one copy of the proceedings.
+
+The student fee includes all of the above except the conference dinner.
+Students must include a note from their department or supervisor verifying
+student status.
+
+Extra tickets for the banquet and/or excursion can be purchased at the
+workshop.
+
+To avoid the late fee, payment must be received by June 5. A fee of $50 will
+be required for cancelling registrations after June 5.
+
+Hotel Information
+
+Hotel Gardur is a dormitory on campus converted to a summer hotel. It is
+centrally located both for the conference and for the city center. It offers
+simple yet comfortable rooms furnished with wash basin. Bath and shower
+facilities can be found on each floor, and a TV lounge stands at guests'
+disposal.
+
+Hotel Loftleidir is a full-service conference hotel, with private bath or
+shower, minibar, phone, and other modern conveniences. The rooms have TVs
+with both local and foreign channels. The hotel has four restaurants, inside
+swimming pool, jacuzzi, sauna, massage, solarium, hairdresser service, an
+exercise room, and a souvenir shop and newsstand. City center can be reached
+by foot or by bus. The hotel stands both by south seaside and by Oskjuhlid
+Hill park, with walking paths leading to panoramic views.
+
+Blocks of rooms has been reserved at the hotels from July 2 to July 6. These
+are ensured until June 5; after that time, room reservations are subject to
+space and rate availability. If you plan to stay longer, please note that
+hotel space on summer weekends is very tight, thus we may need to arrange
+for a different accommodation.
+
+Arrivals after 6:00 pm must guarantee the first night's accomodations with
+check, international money order, or major credit card. Room rates include
+breakfast buffet.
+----------------------------------------------------------------------------
+
+Transportation
+
+Given Iceland's geographic location, the default mode of transportation is
+air travel. The country is served by direct flights from over two dozen
+destinations by eleven airlines this summer.
+
+Please make your reservations as soon as possible! July and August is the
+main tourist season, so flight seats and hotel rooms disappear quickly.
+
+The majority of flights are by Icelandair, which uses the Keflavik airport
+as a hub across the North-Atlantic ocean. Destinations with daily
+connections include: Copenhagen, Oslo, Stockholm, London, Luxembourg, New
+York, Baltimore, Halifax. Other destinations include: Frankfurt, Düsseldorf,
+Amsterdam, Zürich, Barcelona, Paris, Glasgow, Helsinki.
+
+Take particular notice of the possibility of a stop-over in Reykjavík for
+attending SWAT on voyage to the other side of the N-Atlantic. In particular,
+those coming from N-America may continue onwards to ICALP in Germany in the
+following week.
+
+Our travel agent offers the following special fares for the conference:
+Baltimore/NY: $650, Copenhagen: $595, Oslo: $590,
+Stockholm: $585, Helsinki: $835
+Additional taxes, currently about $43, apply to the US destinations. These
+rates match the lowest fares on the books at the corresponding destinations,
+but do not have the usual restriction of a Saturday night stay. For an
+additional $100, the trip from Baltimore/NY trip can be extended to the
+Europe mainland with a stopover in Iceland.
+
+The contact information of the travel agent is given on the registration
+page. An agency in Copenhagen that can also be contacted for these and other
+airfares is: Islandia Travel, ATTN: Gunnar, tel:+45-3333-0180,
+fax:+45-3333-0330.
+
+The Keflavik airport is about 40 minutes by car from city center. The Flybus
+($9) goes straight to Hotel Loftleidir, and then by request to Hotel Gardur.
+Taxi fare would be about $70.
+
+Other connections: SAS also has daily flights from Copenhagen, and may be a
+good choice from farther destinations.
+
+Several airlines/agencies have non-regular tours this summer from various
+destinations, especially in mainland Europe. We suggest that you contact
+your travel agent for possibilities and special fares available in your
+country.
+
+There are biweekly tours to/from Amsterdam available for about $370. The
+flights leave Amsterdam late night on Monday and Wednesday, and return past
+midnight. Reservation with $80 must be done 1 month in advance. Please
+direct all correspondence and queries to: ISTravel Travel Agency,
+tel:+354-568-6255, fax:+354-568-8518,
+
+Finally, surface travel is a possibility, if time is not an issue.

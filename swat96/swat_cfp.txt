@@ -1,0 +1,62 @@
+		    CALL FOR PAPERS	
+
+	Fifth Scandinavian Workshop on Algorithm Theory
+
+		       (SWAT'96)
+
+		    July 3-5, 1996
+
+	          Reykjavik, Iceland
+
+The workshop, which alternates with the Workshop on Algorithms and Data
+Structures (WADS), is intended as a forum for researchers in the area of
+design and analysis of algorithms and data structures. We invite submissions
+of papers presenting original research on algorithms and data structures in
+all areas, including computational geometry, parallel and distributed
+computing, graph theory, and combinatorics.  Contributors should send five
+hard copies of a full paper (not exceeding 12 pages) to
+
+	Rolf Karlsson
+	Department of Computer Science
+	Lund University
+	Box 118 (Ole Romers v 3)
+	S-221 00 Lund, SWEDEN
+
+	Email: rolf@dna.lth.se, fax: +46-46-131021.
+
+Submissions must arrive by February 20, 1996.
+The submissions should give the author's email address and fax number if
+available. Authors will be notified of acceptance or rejection by April 1, 1996.
+Proceedings will be published, presumably in the Springer-Verlag series
+Lecture Notes in Computer Science. The final versions of accepted papers must
+arrive in camera-ready form before April 25, 1996.
+ 
+	Invited Speakers:
+
+Noga Alon (Tel Aviv University), Arne Andersson (Lund University),
+Michael Paterson (University of Warwick).
+
+	Program Committee:
+
+Susanne Albers (Max-Planck-Institut, Saarbrucken), Bengt Aspvall (University
+of Bergen), Ricardo Baeza-Yates (University of Chile), Svante Carlsson (Luleaa
+University), Magnus Halldorsson (University of Iceland), Rolf Karlsson
+(co-chair, Lund University), Andrzej Lingas (co-chair, Lund University),
+Joseph Mitchell (SUNY at Stony Brook), Takao Nishizeki (Tohoku University),
+Pekka Orponen (University of Helsinki), Jorg-Rudiger Sack (Carleton University), Erik M. Schmidt (University of Aarhus), Eli Upfal (Weizmann Institute/ IBM
+Almaden), Moti Yung (IBM Yorktown Heights).
+
+	Organizing Committee:
+
+Hjalmtyr Hafsteinsson and Magnus Halldorsson (University of Iceland).
+
+For more information, contact
+
+Magnus M. Halldorsson, Science Institute, IS-107 Reykjavik, Iceland.
+Email: mmh@rhi.hi.is, phone: +354-525-4733, +354-565-7614, fax: +354-552-8801.
+
+	Web page: http://www.rhi.hi.is/swat96/
+
+
+
+

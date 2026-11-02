@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <title>SWAT 2016: 15th Scandinavian Symposium and Workshops on Algorithm Theory</title>
+  <meta name="description" content="15th Scandinavian Symposium and Workshops on Algorithm Theory June 22-24, 2016, Reykjavik, Iceland
+">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="css/main.css">
+  
+  	
+<style>
+.authors, .sessionchair {font-style:italic;font-size:small;padding-left:30px}
+.break {color:green}
+.event {color:#d02121}
+.invited a{text-decoration:underline;font-style:italic;color:black}
+td.time {white-space:nowrap;padding-right:10px}
+.session {color:#0066b9}
+.day {font-size:large;padding-top:30px}
+.formula {font-style:italic;white-space:nowrap;font-family: Courier}
+.abstract {margin-left: 30px;font-size:80%;max-width:700px}
+.btn-good { background-color: transparent; color:#d02121; 
+        font-style: italic;border:1px solid #d02121; font-size:80%}
+.btn-good:focus {outline:0;}
+}
+</style>
+
+</head>
+
+
+  <body>
+
+    <header class="navbar navbar-default navbar-fixed-top  bs-docs-nav" role="banner">
+	<div class="container">
+		<nav class="navbar-inner" role="navigation">
+			<ul class="nav navbar-nav">
+				<li><a href="./index.html">
+						<span class="underline">Home</span>
+				</a></li>
+				<li><a href="./venue.html">
+						<span class="underline">Venue & Accommodation</span>
+				</a></li>
+				<li><a href="./accepted.html">
+						<span class="underline">Accepted Papers</span>
+				</a></li>
+				<li><a href="./registration.html">
+						<span class="underline">Registration</span>
+				</a></li>
+				<li><a href="./program.html">
+						<span class="underline">Program</span>
+				</a></li>
+				<li><a href="http://www.dagstuhl.de/dagpub/978-3-95977-011-8">
+						<span class="underline">Proceedings</span>
+				</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	
+	
+	
+	
+	
+	    <div class="container">
+
+      <div id="al-head" class="jumbotron" title = "Welcome to SWAT'16!">
+			<div class="pull-left">
+				<h1>SWAT 2016</h1>
+				<p>
+				15th Scandinavian Symposium and Workshops on Algorithm Theory<br>
+				June 22-24, 2016, Reykjavik, Iceland
+				</p>
+			</div>
+		  </div>
+
+  <div class="box wide" width="auto">
+
+
+  
+  <h2>Conference Program</h2>
+
+<h4>All talks are in <span style="color:#d02121">room V102</span>, ground floor, at Reykjavik University.</h4>
+
+  <table width="auto" align="center">
+
+  <!--SESSION 1-->
+    <tr>
+	  <th class="day" colspan="2">Day 1: Wednesday, June 22<th>
+	</tr>
+	<tr>
+	  <td class="time">8:40 - 9:30</td> 
+	  <td><span  style="color:#d02121">Invited Talk:</span> <span class="invited"><a href="http://ttic.uchicago.edu/~cjulia/">Julia Chuzhoy</a>.
+	  Excluded Grid Theorem: Improved and Simplified. 
+  <button type="button" class="btn-good" data-toggle="collapse" data-target="#abstractjulia">Abstract</button> <br \>
+  <span class="sessionchair">Session chair: Magnús Halldórsson</span>
+  </span>
+
+	  <div id="abstractjulia" class="abstract collapse">
+	   One of the key results in Robertson and Seymour’s seminal work on graph minors is the Excluded
+Grid Theorem. The theorem states that there is a function <span class="formula">f</span>, such that for every positive integer
+<span class="formula">g</span>, every graph whose treewidth is at least <span class="formula">f(g)</span> contains the 
+<span class="formula">(g×g)</span>-grid as a minor. This theorem
+has found many applications in graph theory and algorithms. An important open question is
+establishing tight bounds on <span class="formula">f(g)</span> for which the theorem holds. Robertson and Seymour showed
+that <span class="formula">f(g) &ge; &Omega;(g<sup>2</sup><span style="font-style:normal">log</span>(g))</span>, and this remains the best current lower bound on <span class="formula">f(g)</span>. Until recently,
+the best upper bound was super-exponential in <span class="formula">g</span>. In this talk, we will give an overview of a recent
+sequence of results, that has lead to the best current upper bound of 
+<span class="formula">f(g) = O(g<sup>19</sup><span style="font-style:normal">polylog</span>(g))</span>.
+We will also survey some connections to algorithms for graph routing problems.
+</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">9:30 - 9:40</td>
+	  <td class="break">Break</td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td class="session">Session 1: Approximation and Graphs <br \><span class="sessionchair">Session chair: Marcin Pilipczuk</span></td>
+	</tr>
+	<tr>
+	  <td class="time">9:40 - 10:05</td>
+	  <td><span class="title">Approximating Connected Facility Location with Lower and Upper Bounds via LP Rounding</span><br \>
+		<span class="authors"><span>Zachary Friggstad, Mohsen Rezapour and Mohammad Salavatipour</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:05 - 10:30</td>
+	  <td><span class="title">Approximation Algorithms for Node-Weighted Prize-collecting Steiner Tree problems on Planar Graphs</span><br \>
+		<span class="authors"><span>Mateusz Lewandowski, Jarosław Byrka and Carsten Moldenhauer</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:30 - 10:55</td>
+	  <td><span class="title">A Logarithmic Integrality Gap Bound for Directed Steiner Tree in Quasi-bipartite Graphs</span><br \>
+		<span class="authors"><span>Zachary Friggstad, Jochen Koenemann and Mohammad Shadravan</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:55 - 11:15</td>
+	  <td class="break">Coffee Break</td>
+	</tr>
+
+  <!--SESSION 2-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 2: Graph Algorithms <br \><span class="sessionchair">Session chair:  Julia Chuzhoy</span></td>
+	</tr>
+	<tr>
+	  <td class="time">11:15 - 11:40</td>
+	  <td><span class="title">A Linear Kernel for Finding Square Roots of Almost Planar Graphs</span><br \>
+		<span class="authors"><span>Petr Golovach, Dieter Kratsch, Daniel Paulusma and Anthony Stewart</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">11:40 - 12:05</td>
+	  <td><span class="title">Linear-Time Recognition of Map Graphs with Outerplanar Witness</span><br \>
+		<span class="authors"><span>Matthias Mnich, Ignaz Rutter and Jens M. Schmidt</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:05 - 12:30</td>
+	  <td><span class="title">The p-Center Problem in Tree Networks Revisited</span><br \>
+		<span class="authors"><span>Aritra Banik, Binay Bhattacharya, Sandip Das, Tsunehiko Kameda and Zhao Song</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:30 - 14:00</td>
+	  <td class="break">Lunch</td>
+	</tr>
+
+  <!--SESSION 3-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 3: Sets <br \><span class="sessionchair">Session chair:  Rasmus Pagh</span></td>
+	</tr>
+	<tr>
+	  <td class="time">14:00 - 14:25</td>
+	  <td><span class="title">A Simple Mergeable Dictionary</span><br \>
+		<span class="authors">Adam Karczmarz</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">14:25 - 14:50</td>
+	  <td><span class="title">Cuckoo Filter: Simplification and Analysis</span><br \>
+		<span class="authors">David Eppstein</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">14:50 - 15:15</td>
+	  <td><span class="title">Randomized Algorithms for Finding a Majority Element</span><br \>
+		<span class="authors"><span>Pawel Gawrychowski, Jukka Suomela and Przemysław Uznański</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">15:15 - 15:45</td>
+	  <td class="break">Coffee Break</td>
+	</tr>
+
+  <!--SESSION 4-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 4: Strings and Streams <br \><span class="sessionchair">Session chair: Nodari Sitchinava</span></td>
+	</tr>
+	<tr>
+	  <td class="time">15:45 - 16:10</td>
+	  <td><span class="title">A Framework for Dynamic Parameterized Dictionary Matching</span><br \>
+		<span class="authors"><span>Arnab Ganguly, Wing-Kai Hon and Rahul Shah</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">16:10 - 16:35</td>
+	  <td><span class="title">Efficient Summing over Sliding Windows</span><br \>
+		<span class="authors"><span>Ran Ben Bassat, Gil Einziger, Roy Friedman and Yaron Kassner</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">16:35 - 17:00</td>
+	  <td><span class="title">Lower Bounds for Approximation Schemes for Closest String</span><br \>
+		<span class="authors"><span>Marek Cygan, Daniel Lokshtanov, Marcin Pilipczuk, Michał Pilipczuk and Saket Saurabh</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">17:00 - 17:45</td>
+	  <td class="break">Football Break</td>
+	</tr>
+	<tr>
+	  <td class="time">17:50 - 18:20</td>
+	  <td class="event">Business Meeting</td>
+	</tr>
+	<tr>
+	  <td class="time">18:20</td>
+	  <td class="event">Reception</td>
+	</tr>
+
+
+
+
+
+  <!--DAY 2-->
+	
+
+  <!--SESSION 1-->
+    <tr>
+	  <th class="day" colspan="2">Day 2: Thursday, June 23<th>
+	</tr>
+	<tr>
+	  <td class="time">8:40 - 9:30</td> 
+	  <td>
+	  <span  style="color:#d02121">Invited Talk:</span> <span class="invited"><a href="http://www.cs.bme.hu/~dmarx/">Dániel Marx</a>.
+	  The Complexity Landscape of Fixed-Parameter Directed Steiner Network Problems. 
+   <button type="button" class="btn-good" data-toggle="collapse" data-target="#abstractdaniel">Abstract</button></span> <br \><span class="sessionchair">Session chair: Kazuo Iwama</span> 
+
+
+	  <div id="abstractdaniel" class="abstract collapse">
+	  Given a directed graph <span class="formula">G</span> and a list 
+	  <span class="formula">(s<sub>1</sub>,t<sub>1</sub>),&hellip;,(s<sub>k</sub>,t<sub>k</sub>)</span> of terminal pairs, the Directed
+Steiner Network problem asks for a minimum-cost subgraph of <span class="formula">G</span> that contains a directed
+<span class="formula">s<sub>i</sub> &rarr; t<sub>i</sub></span> path for every <span class="formula">1 &le; i &le; k.</span> 
+Feldman and Ruhl presented an <span class="formula">n<sup>O(k)</sup></span> time algorithm for the
+problem, which shows that it is polynomial-time solvable for every fixed number <span class="formula">k</span> of demands.
+There are special cases of the problem that can be solved much more efficiently: for example,
+the special case Directed Steiner Tree (when we ask for paths from a root <span class="formula">r</span> to terminals
+<span class="formula">t<sub>1</sub>,&hellip;,t<sub>k</sub></span>) is known to be fixed-parameter 
+tractable parameterized by the number of terminals,
+that is, algorithms with running time of the form <span class="formula">f(k)&sdot;n<sup>O(1)</sup></span> exist for the problem. On the
+other hand, the special case Strongly Connected Steiner Subgraph (when we ask for a
+path from every <span class="formula">t<sub>i</sub></span> to every other <span class="formula">t<sub>j</sub></span>) is known to be
+ <strong>W</strong>[1]-hard parameterized by the number of
+terminals, hence it is unlikely to be fixed-parameter tractable. In the talk, we survey results on
+parameterized algorithms for special cases of Directed Steiner Network, including a recent
+complete classification result (joint work with Andreas Feldmann) that systematically explores
+the complexity landscape of directed Steiner problems to fully understand which special cases
+are FPT or <strong>W</strong>[1]-hard.
+</div>
+      </td>
+	</tr>
+	<tr>
+	  <td class="time">9:30 - 9:40</td>
+	  <td class="break">Break</td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td class="session">Session 5: Parameterized Graph Algorithms <br \><span class="sessionchair">Session chair: Dániel Marx</span></td>
+	</tr>
+	<tr>
+	  <td class="time">9:40 - 10:05</td>
+	  <td><span class="title">Coloring Graphs having Few Colorings over Path Decompositions</span><br \>
+		<span class="authors">Andreas Björklund</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:05 - 10:30</td>
+	  <td><span class="title">Parameterized Algorithms for Recognizing Monopolar and 2-Subcolorable Graphs</span><br \>
+		<span class="authors"><span>Iyad Kanj, Christian Komusiewicz, Manuel Sorge and Erik Jan van Leeuwen</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:30 - 10:55</td>
+	  <td><span class="title">On Routing Disjoint Paths in Bounded Treewidth Graphs</span><br \>
+		<span class="authors"><span>Alina Ene, Matthias Mnich, Marcin Pilipczuk and Andrej Risteski</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:55 - 11:15</td>
+	  <td class="break">Coffee Break</td>
+	</tr>
+
+  <!--SESSION 2-->
+	<tr>
+	  <td></td>
+	  <td  class="session">Session 6: Hard Problems <br \><span class="sessionchair">Session chair: Petteri Kaski </span> </td>
+	</tr>
+	<tr>
+	  <td class="time">11:15 - 11:40</td>
+	  <td><span class="title">Colouring Diamond-free Graphs</span><br \>
+		<span class="authors"><span>Konrad Kazimierz Dabrowski, François Dross and Daniel Paulusma</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">11:40 - 12:05</td>
+	  <td><span class="title">Below All Subsets for Some Permutational Counting Problems</span><br \>
+		<span class="authors">Andreas Björklund</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:05 - 12:30</td>
+	  <td><span class="title">Extension Complexity, MSO Logic, and Treewidth</span><br \>
+		<span class="authors"><span>Petr Kolman, Martin Koutecky and Hans Raj Tiwary</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:30 - 13:00</td>
+	  <td class="break">Lunch</td>
+	</tr>
+	<tr>
+	  <td class="time">13:30 - 23:00</td>
+	  <td class="event">Excursion and Conference Dinner
+		<button type="button" class="btn-good" data-toggle="collapse" data-target="#excursion">Details</button>
+		
+		<div id="excursion" class="collapse" style="margin-left:30px;font-size:90%;color:black;max-width:700px">
+		         <p>We will tour the Reykjanes peninsula. This includes bubbling geothermal areas, dramatic coastline, lighthouse, and the "bridge between two continents". We end with a conference dinner (from 7:30pm) at the harbor restaurant <a href="http://vitinn.is">Vitinn</a> in the village of Sandgerði.
+</p>
+				 <p style="text-align:center">
+				 <img src="images/krysuvik.jpg" alt="Krýsuvík" style="max-height:500px;border:0" align="middle">
+				 </p>
+		 </div>
+	  </td>
+	</tr>
+
+
+	
+	
+	
+  <!--DAY 3-->
+
+  <!--SESSION 1-->
+    <tr>
+	  <th class="day" colspan="2">Day 3: Friday, June 24<th>
+	</tr>
+	<tr>
+	  <td class="time">8:40 - 9:30</td> 
+	  <td>
+	  	  <span  style="color:#d02121">Invited Talk:</span> <span class="invited"><a href="http://www.cs.berkeley.edu/~christos/">Christos Papadimitriou</a>.
+	  Computation as a Scientific Weltanschauung. 
+  <button type="button" class="btn-good" data-toggle="collapse" data-target="#abstractchristos">Abstract</button> <br \><span class="sessionchair">Session chair: Luca Aceto</span>
+  </span>
+
+	  <div id="abstractchristos" class="abstract collapse">
+	  Computation as a mechanical reality is young – almost exactly seventy years of age – and yet the
+spirit of computation can be traced several millennia back. Any moderately advanced civilization
+depends on calculation (for inventory, taxation, navigation, land partition, among many others)
+– our civilization is the first one that is conscious of this reliance.
+Computation has also been central to science for centuries. This is most immediately apparent
+in the case of mathematics: the idea of the algorithm as a mathematical object of some significance
+was pioneered by Euclid in the 4<sup>th</sup> century BC, and advanced by Archimedes a century later.
+But computation plays an important role in virtually all sciences: natural, life, or social. Implicit
+algorithmic processes are present in the great objects of scientific inquiry – the cell, the universe,
+the market, the brain – as well as in the models developed by scientists over the centuries for
+studying them. This brings about a very recent – merely a few decades old – mode of scientific
+inquiry, which is sometime referred to as the lens of computation: When students of computation
+revisit central problems in science from the computational viewpoint, often unexpected progress
+results. This has happened in statistical physics through the study of phase transitions in terms
+of the convergence of Markov chain-Monte Carlo algorithms, and in quantum mechanics through
+quantum computing.
+This talk will focus on three other manifestations of this phenomenon. Almost a decade ago,
+ideas and methodologies from computational complexity revealed a subtle conceptual flaw in the
+solution concept of Nash equilibrium, which lies at the foundations of modern economic thought.
+In the study of evolution, a new understanding of century-old questions has been achieved through
+surprisingly algorithmic ideas. Finally, current work in theoretical neuroscience suggests that the
+algorithmic point of view may be invaluable in the central scientific question of our era, namely
+understanding how behavior and cognition emerge from the structure and activity of neurons
+and synapses.
+</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">9:30 - 9:40</td>
+	  <td class="break">Break</td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td class="session">Session 7: Online Algorithms <br \><span class="sessionchair">Session chair: Alan Borodin</span></td>
+	</tr>
+	<tr>
+	  <td class="time">9:40 - 10:05</td>
+	  <td><span class="title">Optimal Online Escape Path against a Certificate</span><br \>
+		<span class="authors"><span>Elmar Langetepe and David Kübel</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:05 - 10:30</td>
+	  <td><span class="title">Lagrangian Duality based Algorithms in Online Energy-Efficient Scheduling</span><br \>
+		<span class="authors">Kim Thang Nguyen</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:30 - 10:55</td>
+	  <td><span class="title">Online Dominating Set</span><br \>
+		<span class="authors"><span>Joan Boyar, Stephan J. Eidenbenz, Lene Favrholdt, Michal Kotrbčík and Kim S. Larsen</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">10:55 - 11:15</td>
+	  <td class="break">Coffee Break</td>
+	</tr>
+
+  <!--SESSION 2-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 8: Sorting Scheduling and Games <br \><span class="sessionchair">Session chair: Páll Melsted</span></td>
+	</tr>
+	<tr>
+	  <td class="time">11:15 - 11:40</td>
+	  <td><span class="title">Sorting Under Forbidden Comparisons</span><br \>
+		<span class="authors"><span>Indranil Banerjee and Dana Richards</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">11:40 - 12:05</td>
+	  <td><span class="title">A Plane 1.88-Spanner for Points in Convex Position</span><br \>
+		<span class="authors"><span>Ahmad Biniaz, Anil Maheshwari, Michiel Smid, Prosenjit Bose, Mahdi Amani and Jean-Lou De Carufel</span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:05 - 12:30</td>
+	  <td><span class="title">Estimating The Makespan of The Two-Valued Restricted Assignment Problem</span><br \>
+		<span class="authors"><span>Klaus Jansen, Kati Land and Marten Maack</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">12:30 - 14:00</td>
+	  <td class="break">Lunch</td>
+	</tr>
+
+  <!--SESSION 3-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 9: Approximation and Geometry <br \><span class="sessionchair">Session chair: Timothy Chan</span> </td>
+	</tr>
+	<tr>
+	  <td class="time">14:00 - 14:25</td>
+	  <td><span class="title">Total Stability in Stable Matching Games</span><br \>
+		<span class="authors"><span>Sushmita Gupta, Kazuo Iwama and Shuichi Miyazaki</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">14:25 - 14:50</td>
+	  <td><span class="title">Approximating the Integral Fréchet Distance</span><br \>
+		<span class="authors"><span>Christian Scheffer, Jorg Sack and Anil Maheshwari</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">14:50 - 15:15</td>
+	  <td><span class="title">Minimizing the Continuous Diameter when Augmenting Paths and Cycles with Shortcuts</span><br \>
+		<span class="authors"><span>Jean-Lou De Carufel, Carsten Grimm, Anil Maheshwari and Michiel Smid</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">15:15 - 15:45</td>
+	  <td class="break">Coffee Break</td>
+	</tr>
+
+  <!--SESSION 4-->
+	<tr>
+	  <td></td>
+	  <td class="session">Session 10: Geometry <br \><span class="sessionchair">Session chair: David Eppstein</span></td>
+	</tr>
+	<tr>
+	  <td class="time">15:45 - 16:10</td>
+	  <td><span class="title">A Clustering-Based Approach to Kinetic Closest Pair</span><br \>
+		<span class="authors"><span>Timothy M. Chan and Zahed Rahmati</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">16:10 - 16:35</td>
+	  <td><span class="title">Constrained Geodesic Center of a Simple Polygon</span><br \>
+		<span class="authors"><span>Eunjin Oh, Wanbin Son and Hee-Kap Ahn</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">16:35 - 17:00</td>
+	  <td><span class="title">Time-Space Trade-offs for Triangulating a Simple Polygon</span><br \>
+		<span class="authors"><span>Boris Aronov, Simon Pratt, Matias Korman, André van Renssen and Marcel Roeloffzen</span></span>
+	  </td>
+	</tr>
+	<tr>
+	  <td class="time">17:00</td>
+	  <td class="event">Happy Hour</td>
+	</tr>
+	</table>
+
+
+	
+
+
+  </div>
+    </div>
+
+    <footer class="bs-docs-footer" role="contentinfo">
+		<div class="panel panel-default"   style = "border: none">
+			<div class="panel-body text-center">
+				<div class="col-md-2 pull-left">
+						<a href="http://en.ru.is/"><img src="images/hr.png" alt="Reykjavik University" style="max-height:60px;border:0"></a>
+				</div>
+				<div class="col-md-2 pull-right">
+						<a href="http://www.icetcs.ru.is/"><img src="images/icetcs.png" alt="ICE-TCS" style="max-height:60px;border:0"></a>
+				</div>
+			</div>
+		</div>
+</footer>
+
+</body>
+
+</html>

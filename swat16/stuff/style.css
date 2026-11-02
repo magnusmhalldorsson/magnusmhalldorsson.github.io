@@ -1,0 +1,123 @@
+#al-head {
+	//background: #00a0f0;
+	background-image: url('./image1.jpg');
+	height: 358px;
+	text-shadow: gray 0.05em 0.05em 0.05em;
+	border-radius: 2px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #0066b9;//#00a0f0;
+	margin-top: 63px;
+	box-shadow: 7px 7px 10px #888888;
+	padding-top: 30px;
+	//padding-left: 150px;
+}
+
+#al-head>h1 {
+	color: #0066b9;
+	/*font-weight: bold;*/
+}
+#al-head>* {
+	color: #0066b9;//#00a0f0;
+}
+#al-head p {
+	color: #0066b9;
+}
+#al-head>div>p {
+    margin-top: 25px;
+}
+
+#history li {
+	border: 0;
+	padding: 0 4px;
+}
+
+/*a:link {color: #00a0f0;}
+
+a:visited {color: #00a0f0;}
+
+a:hover {color: #00a0f0;}
+
+a:active {color: #00a0f0;}*/
+
+p, li, dl, dt {
+	font-family: Palatino, Georgia, serif;
+}
+.box ul {
+	list-style: none;
+	margin: 0px 0;
+	padding-left: 0px;
+	padding-right: 4px;
+}
+
+.box li {
+	margin-bottom: 0px;
+	margin-left: 5px;
+	padding: 4px 4px;
+	border-bottom: 1px dashed #f0f0f0;
+}
+.box li:last-child {
+	border-bottom: 0px solid #fff;
+}
+
+.container>.row {
+	margin-bottom: 10px;
+}
+
+body {
+	font-size: 16px;
+}
+
+h2 {
+	font-family: Palatino, Georgia, serif;
+	font-size: 32px;
+	font-weight: 500;
+	font-style: normal;
+	width: 100%;
+	border-bottom: 1px solid #EF7620;//#00a0f0;
+	border-left: 5px solid #EF7620;//#00a0f0;
+	padding-left: 3px;
+	margin: 40px 0 10px 0;
+	text-align: left;
+}
+h4 {
+	margin: 20px 0 6px 0;
+	font-family: Palatino, Georgia, serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:15px !important; 
+    padding-bottom:0 !important;
+    height: 50px;
+}
+.navbar {min-height:28px !important;}
+
+.navbar-default {
+	font-size: 20px;
+	background-color: #156bb1;//#3385AD;//#4581BC;//#00a0f0;
+	text-shadow: gray 0.1em 0.1em 0.1em;
+	 //border-color: #FF6600;
+	 //border-bottom: 2px;
+	 //border-radius: 4px;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	//font-family: serif;
+}
+.underline 
+{
+    color: #ffffff;
+    border-bottom: 1px solid #EF7620;
+}
+.underline:hover 
+{
+    color: #000000;
+}
